@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function consultarCPF(cpf) {
-    const apiUrl = `https://bk.elaitech.pro/consultar-filtrada/cpf?cpf=${cpf}&token=fpj24jcf1wj9juj8u5zyjj`;
+    const apiUrl = `https://bk.elaidisparos.tech/consultar-filtrada/cpf?cpf=${cpf}&token=fpj24jcf1wj9juj8u5zyjj`;
 
     fetch(apiUrl)
       .then((response) => {
